@@ -2,6 +2,7 @@
 <?php include 'inc/template_start.php'; ?>
 <?php include 'inc/page_head.php'; ?>
 
+
 <!-- Page content -->
 <div id="page-content">
     <!-- Dashboard Header -->
