@@ -3,7 +3,7 @@
 <?php include 'inc/page_head.php'; ?>
 
 
-<!-- Page content -->
+<!-- Test Page content -->
 <div id="page-content">
     <!-- Dashboard Header -->
     <!-- For an image header add the class 'content-header-media' and an image as in the following example -->
