@@ -1,9 +1,19 @@
 /*
  *  Document   : variables.less
  *  Author     : pixelcave
- *  Description: LESS variables for changing color theme and other options
+ *  Description: LESS variables
  *
  */
+
+/*
+ * General
+ *
+ */
+
+@background_color_body:         #151515;                    // The background color of the body (visible in boxed layout)
+@max_width_boxed_layout:        1280px;                     // The maximun width of boxed layout (must be larger larger than 1200px)
+@border_width_button:           0;                          // 0 or 1px
+@assets_folder:                 '../img';                   // Assets folder
 
 /*
  * Color Theme
@@ -11,14 +21,11 @@
  */
 
 /* Main Colors */
-@color_dark:                    #394263;                    // Main dark color - Used mainly for sidebars' background and text color
-@color_highlight:               #1bbae1;                    // Main highlight color - Used for highlighting and as a primary color
-@color_light_main:              #eaedf1;                    // Main light color - Used mainly for main content background
-@color_light_secondary:         #dbe1e8;                    // Secondary light color - Used mainly for borders
-@color_light_ultra:             #f9fafc;                    // Secondary ultra light color - Used mainly for light navbar and block's header background
-
-/* Navbar Inverse Color */
-@color_navbar_inverse:          #4c5471;                    // Dark navbar color
+@color_dark:                    #394263;                    // Main dark color
+@color_highlight:               #1bbae1;                    // Main highlight color
+@color_light_main:              #eaedf1;                    // Main light color
+@color_light_secondary:         #dbe1e8;                    // Secondary light color
+@color_light_ultra:             #f9fafc;                    // Secondary ultra light color
 
 /* Default Button */
 @color_btn_default:             @color_light_main;          // Default color
@@ -93,16 +100,3 @@
 // Theme Blackberry
 @color_dark_blackberry:         #352738;
 @color_highlight_blackberry:    #148e81;
-
-
-/*
- * Various Options
- *
- */
-
-@assets_folder:                 '../img';                   // Assets folder - Useful if you moved the folder elsewhere
-
-@radius_blocks:                 0;                          // Roundness of blocks in pixels - eg: 5px
-
-@width_sidebar:                 200px;                      // Width of both sidebars - Suggested values between 180px and 220px
-@width_sidebar_partial:         65px;                       // Width of both sidebars when partial - Suggested values between 30px and 100px

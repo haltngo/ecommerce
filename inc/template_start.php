@@ -45,9 +45,6 @@
         <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
         <link rel="stylesheet" href="css/main.css">
 
-        <!-- Include a specific file here from css/themes/ folder to alter the default theme of the template -->
-        <?php if ($template['theme']) { ?><link id="theme-link" rel="stylesheet" href="css/themes/<?php echo $template['theme']; ?>.css"><?php } ?>
-
         <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
         <link rel="stylesheet" href="css/themes.css">
         <!-- END Stylesheets -->
